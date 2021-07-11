@@ -1,4 +1,5 @@
 # Copyright (C) 2015 The Android Open Source Project
+# Copyright (C) 2021 KudProject Development
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,23 +14,21 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES := \
-    Roboto-Regular.ttf \
-    Roboto-Bold.ttf \
-    Roboto-Italic.ttf \
-    Roboto-BoldItalic.ttf \
-    Roboto-Black.ttf \
-    Roboto-BlackItalic.ttf \
-    Roboto-Light.ttf \
-    Roboto-LightItalic.ttf \
-    Roboto-Medium.ttf \
-    Roboto-MediumItalic.ttf \
-    Roboto-Thin.ttf \
-    Roboto-ThinItalic.ttf \
-    RobotoCondensed-Regular.ttf \
-    RobotoCondensed-Bold.ttf \
-    RobotoCondensed-Italic.ttf \
-    RobotoCondensed-BoldItalic.ttf \
-    RobotoCondensed-Light.ttf \
-    RobotoCondensed-LightItalic.ttf \
-    RobotoCondensed-Medium.ttf \
-    RobotoCondensed-MediumItalic.ttf
+    RobotoFallback-Regular.ttf \
+    RobotoFallback-Bold.ttf \
+    RobotoFallback-Italic.ttf \
+    RobotoFallback-BoldItalic.ttf \
+    RobotoFallback-Black.ttf \
+    RobotoFallback-BlackItalic.ttf \
+    RobotoFallback-Light.ttf \
+    RobotoFallback-LightItalic.ttf \
+    RobotoFallback-Medium.ttf \
+    RobotoFallback-MediumItalic.ttf \
+    RobotoFallbackCondensed-Regular.ttf \
+    RobotoFallbackCondensed-Bold.ttf \
+    RobotoFallbackCondensed-Italic.ttf \
+    RobotoFallbackCondensed-BoldItalic.ttf \
+    RobotoFallbackCondensed-Light.ttf \
+    RobotoFallbackCondensed-LightItalic.ttf \
+    RobotoFallbackCondensed-Medium.ttf \
+    RobotoFallbackCondensed-MediumItalic.ttf

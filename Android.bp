@@ -1,5 +1,6 @@
 //
 // Copyright (C) 2018 The Android Open Source Project
+// Copyright (C) 2021 KudProject Development
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -13,111 +14,92 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-filegroup {
-    name: "recovery_roboto-fonts_dep",
-    export_to_make_var: "recovery_roboto-fonts_dep",
-    srcs: [
-        "*.otf",
-        "*.ttf",
-    ],
-}
-
 prebuilt_font {
-    name: "Roboto-Regular.ttf",
+    name: "RobotoFallback-Regular.ttf",
     src: "Roboto-Regular.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Bold.ttf",
+    name: "RobotoFallback-Bold.ttf",
     src: "Roboto-Bold.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Italic.ttf",
+    name: "RobotoFallback-Italic.ttf",
     src: "Roboto-Italic.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-BoldItalic.ttf",
+    name: "RobotoFallback-BoldItalic.ttf",
     src: "Roboto-BoldItalic.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Black.ttf",
+    name: "RobotoFallback-Black.ttf",
     src: "Roboto-Black.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-BlackItalic.ttf",
+    name: "RobotoFallback-BlackItalic.ttf",
     src: "Roboto-BlackItalic.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Light.ttf",
+    name: "RobotoFallback-Light.ttf",
     src: "Roboto-Light.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-LightItalic.ttf",
+    name: "RobotoFallback-LightItalic.ttf",
     src: "Roboto-LightItalic.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Medium.ttf",
+    name: "RobotoFallback-Medium.ttf",
     src: "Roboto-Medium.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-MediumItalic.ttf",
+    name: "RobotoFallback-MediumItalic.ttf",
     src: "Roboto-MediumItalic.ttf",
 }
 
 prebuilt_font {
-    name: "Roboto-Thin.ttf",
-    src: "Roboto-Thin.ttf",
-}
-
-prebuilt_font {
-    name: "Roboto-ThinItalic.ttf",
-    src: "Roboto-ThinItalic.ttf",
-}
-
-prebuilt_font {
-    name: "RobotoCondensed-Regular.ttf",
+    name: "RobotoFallbackCondensed-Regular.ttf",
     src: "RobotoCondensed-Regular.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-Bold.ttf",
+    name: "RobotoFallbackCondensed-Bold.ttf",
     src: "RobotoCondensed-Bold.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-Italic.ttf",
+    name: "RobotoFallbackCondensed-Italic.ttf",
     src: "RobotoCondensed-Italic.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-BoldItalic.ttf",
+    name: "RobotoFallbackCondensed-BoldItalic.ttf",
     src: "RobotoCondensed-BoldItalic.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-Light.ttf",
+    name: "RobotoFallbackCondensed-Light.ttf",
     src: "RobotoCondensed-Light.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-LightItalic.ttf",
+    name: "RobotoFallbackCondensed-LightItalic.ttf",
     src: "RobotoCondensed-LightItalic.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-Medium.ttf",
+    name: "RobotoFallbackCondensed-Medium.ttf",
     src: "RobotoCondensed-Medium.ttf",
 }
 
 prebuilt_font {
-    name: "RobotoCondensed-MediumItalic.ttf",
+    name: "RobotoFallbackCondensed-MediumItalic.ttf",
     src: "RobotoCondensed-MediumItalic.ttf",
 }
