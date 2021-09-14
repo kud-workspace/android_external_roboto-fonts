@@ -14,6 +14,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+filegroup {
+    name: "recovery_roboto-fonts_dep",
+    export_to_make_var: "recovery_roboto-fonts_dep",
+    srcs: [
+        "*.ttf",
+    ],
+}
+
 prebuilt_font {
     name: "RobotoFallback-Regular.ttf",
     src: "Roboto-Regular.ttf",
