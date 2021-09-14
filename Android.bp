@@ -65,6 +65,16 @@ prebuilt_font {
 }
 
 prebuilt_font {
+    name: "RobotoFallback-Thin.ttf",
+    src: "Roboto-Thin.ttf",
+}
+
+prebuilt_font {
+    name: "RobotoFallback-ThinItalic.ttf",
+    src: "Roboto-ThinItalic.ttf",
+}
+
+prebuilt_font {
     name: "RobotoFallbackCondensed-Regular.ttf",
     src: "RobotoCondensed-Regular.ttf",
 }

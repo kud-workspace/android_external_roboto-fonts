@@ -24,6 +24,8 @@ PRODUCT_PACKAGES := \
     RobotoFallback-LightItalic.ttf \
     RobotoFallback-Medium.ttf \
     RobotoFallback-MediumItalic.ttf \
+    RobotoFallback-Thin.ttf \
+    RobotoFallback-ThinItalic.ttf \
     RobotoFallbackCondensed-Regular.ttf \
     RobotoFallbackCondensed-Bold.ttf \
     RobotoFallbackCondensed-Italic.ttf \
